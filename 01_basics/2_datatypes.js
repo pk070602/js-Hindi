@@ -8,10 +8,15 @@ console.log(3+3);  console.log("hitesh")      //ek line mai do code mt likho  (y
 //data types
 // 1 primitive data types
 
+// primitive data types (7)==> String,boolean,undefined,symbol,null,number,Bigint
+
 let name="priyanshu";
 let age=19;
 let islodIn=false;
+console.log(typeof islodIn);
 
+let id=Symbol("123");
+console.log(typeof id);
 // numbers=2^53
 // bigint     // ye big companies mai use krte hai ya bdi website per
 // string=> "" or ''   // it can be use in single quote or double quote
@@ -27,3 +32,22 @@ console.log(typeof "string");   // type of  basically hume data k baare mai bta 
 // *********************************************************************************************
 console.log(typeof  null);   // ye show krega object
 console.log(typeof undefined)   //ye show undefined krega kuki undefind apne aaap mai ek type hai
+
+// Non primitive data types --> array,object,functions
+
+// 1 array
+const Heros=["pri","naagraj","doga"];
+console.log(typeof Heros);
+//2 object
+let myObj={
+    name:"hitesh",
+    age:12,
+}
+
+//3 function
+
+// basic declaration of function---->function(){}
+
+const myFunction=function(){
+    console.log("Hello world");
+}
