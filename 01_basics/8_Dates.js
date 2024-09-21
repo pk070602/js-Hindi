@@ -60,5 +60,4 @@ console.log(`my story is very interseting and my nirthday date is ${myNEwDate.ge
 
 myNEwDate.toLocaleString('default',{
     weekday:"long",
-    timeZone: 
 })
